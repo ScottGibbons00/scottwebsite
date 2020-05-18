@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .infoContainer{
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        left: 45%;
+        top: 10%;
+        border-radius: 20px;
+        background-color: #afc3e3;
+    }
+    .picContainer{
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        left: 1%;
+   
+        top: 10%;
+    }
+    .picturesContainer{
+        
+        position: absolute;
+        width: 70%;
+        height: 50%;
+        left: 20%;
+        top: 65%;
+    }
+    .btn-group button:hover {
+  background-color: #3e8e41;
+}
+.button {
+  left: 50%;
+  background-color: #afc3e3;
+  border: none;
+  color: white;
+  padding: 20px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  margin: 8px 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition-duration: 0.4s;
+
+}
+.buttonhover:hover{
+  background-color: #323ea8;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+.zoom{
+  transition: transform .2s;
+}
+.zoom:hover{
+  transform: scale(1.2);
+}
+</style>
+
+ <body>
+    <a href="gallery.html" class="button buttonhover">Back to gallery</a>
+     <h1 style="position: absolute; top: -1%; left: 30%; font-size: 50px; color:#afc3e3">Some of my favorite performances</h1>
+     <div class = "picContainer">
+        <iframe src="https://www.youtube.com/embed/rpAB0Sxnikw"
+        width="750" height="500" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class = "infoContainer">
+        <h1 style="text-align: center;">Music is very important to me and is a huge part of my daily life. To the left is a recording of an original song written by my friend. On the recording, I am playing organ. Unfortunately I could not provide any more videos. Below are some of my favorite moments from performances over the years.</h1>
+    </div>
+     <div class = "picturesContainer">
+        <div class="row" style="width:140%; margin-left: -200px">
+            <div class="column">
+                <img src="music1.jpg" alt="1" style="width:100%" class="zoom">
+                  <img src="music2.jpg" alt="2"style="width:100%"class="zoom">
+                  <img src="music3.jpg" alt="3"style="width:100%"class="zoom">
+                  
+            </div>
+            <div class="column">
+                  <img src="music4.jpg" alt="4"style="width:100%"class="zoom">
+                  <img src="music5.jpg" alt="5"style="width:100%"class="zoom">
+                  <img src="music6.jpg" alt="6"style="width:100%"class="zoom">
+    
+                </div>
+                <div class="column">
+                    <img src="music7.jpg" alt="7"style="width:100%"class="zoom">
+                    <img src="music8.jpg" alt="8"style="width:100%"class="zoom">
+                    <img src="music11.jpg" alt="9"style="width:100%"class="zoom">
+      
+                  </div>
+                  
+            
+        
+    </div>
+     
+            
+</div>
+ </body>
+</html>
+</html>
+
